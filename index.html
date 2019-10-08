@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700&display=swap" rel="stylesheet">
@@ -43,11 +44,11 @@
 
 			<nav class="header-nav">
 				<a href="#" class="header-nav-link active">Home</a>
-				<a href="#" class="header-nav-link">About</a>
-				<a href="#" class="header-nav-link">Services</a>
-				<a href="#" class="header-nav-link">Gallery</a>
-				<a href="#" class="header-nav-link">Blog</a>
-				<a href="#" class="header-nav-link">Contact us</a>
+				<a href="#" class="header-nav-link ">About</a>
+				<a href="#" class="header-nav-link ">Services</a>
+				<a href="#" class="header-nav-link ">Gallery</a>
+				<a href="#" class="header-nav-link ">Blog</a>
+				<a href="#" class="header-nav-link ">Contact us</a>
 			</nav>
 
 			<div class="header-social">
@@ -60,8 +61,9 @@
 		</header>
 
 		<main class="page-content">
-
 			<section class="main-banner">
+			<div class="main-banner-bg1"></div>
+			<div class="main-banner-bg2"></div>
 				<h2 class="main-banner-title">We have Best Medicare
 plan options for you</h2>
 				<p class="main-banner-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
@@ -151,12 +153,12 @@ plan options for you</h2>
 				</div>
 			</section>
 
-			<section class="works-and-creative">
+			<div class="works-and-creative">
 				<div class="works-head">
-					<h2>How we works</h2>
+					<h2 class="works-head-title">How we works</h2>
 				</div>
 				<div class="our-creative-head">
-					<h2>Our creative</h2>
+					<h2 class="our-creative-head-title">Our creative</h2>
 				</div>
 				<div class="works-desk">
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
@@ -165,51 +167,67 @@ plan options for you</h2>
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 				</div>
 				<div class="works-unit-1">
-					<img src="./img/works-1.png" alt="">
 				</div>
 				<div class="works-unit-2">
-					<img src="./img/works-2.png" alt="">
 				</div>
 				<div class="heart-treatment">
-					<a href="#" class="button heart-treatment-button">Heart Treatment</a>
+					<a href="#" class="button heart-treatment-button"><div class="button-icon"><i class="fa fa-caret-right button-icon2" aria-hidden="true"></i></div>Heart Treatment</a>
 					<p>Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 				</div>
 				<div class="works-data-1">
-					<p>Lorem ipsum dolor sit amet, </p>
-					<p>April 19, 2017   |   Dr. Jon Doe</p>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+					<p class="works-data-title">Lorem ipsum dolor sit amet, </p>
+					<p class="works-data-dete">April 19, 2017   |   Dr. Jon Doe</p>
+					<p class="works-data-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 				</div>
 				<div class="works-data-2">
-					<p>Lorem ipsum dolor sit amet, </p>
-					<p>April 19, 2017   |   Dr. Jon Doe</p>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+					<p class="works-data-title">Lorem ipsum dolor sit amet, </p>
+					<p class="works-data-dete">April 19, 2017   |   Dr. Jon Doe</p>
+					<p class="works-data-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 				</div>
 				<div class="heart-treatment-points">
-					<a href="#" class="button heart-treatment-button">Heart Treatment</a>
-					<a href="#" class="button heart-treatment-button">Heart Treatment</a>
-					<a href="#" class="button heart-treatment-button">Heart Treatment</a>
+					<a href="#" class="button heart-treatment-points-button"><div class="button-icon"><i class="fa fa-caret-right button-icon2" aria-hidden="true"></i></div>Heart Treatment</a>
+					<a href="#" class="button heart-treatment-points-button"><div class="button-icon"><i class="fa fa-caret-right button-icon2" aria-hidden="true"></i></div>Heart Treatment</a>
+					<a href="#" class="button heart-treatment-points-button"><div class="button-icon"><i class="fa fa-caret-right button-icon2" aria-hidden="true"></i></div>Heart Treatment</a>
 				</div>
 				<div class="works-read-more">
-					<a href="#" class="button heart-treatment-button">Read more</a>
+					<a href="#" class="button works-read-more-button">Read more</a>
 				</div>
-			</section>
+			</div>
 
 			<section class="gallery">
 				<h2 class="gallery-title">Gallery</h2>
 				<p class="gallery-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
 				<div class="gallery-grid">
-						<img class="gallery-item" src="./img/gallery1.jpg" alt="">
-						<img class="gallery-item" src="./img/gallery2.jpg" alt="">
-						<img class="gallery-item" src="./img/gallery3.jpg" alt="">
-						<img class="gallery-item" src="./img/gallery4.jpg" alt="">
-						<img class="gallery-item" src="./img/gallery5.jpg" alt="">
-						<img class="gallery-item" src="./img/gallery6.jpg" alt="">
+					<div class="gallery-img-container hoverimg">
+							<div class="gallery-img-front gallery-img1"></div>
+							<div class="gallery-img-back">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+					</div>
+						<div class="gallery-img-container hoverimg">
+							<div class="gallery-img-front gallery-img2"></div>
+							<div class="gallery-img-back">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+					</div>
+					<div class="gallery-img-container hoverimg">
+							<div class="gallery-img-front gallery-img3"></div>
+							<div class="gallery-img-back">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+					</div>
+					<div class="gallery-img-container hoverimg">
+							<div class="gallery-img-front gallery-img4"></div>
+							<div class="gallery-img-back">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+					</div>
+					<div class="gallery-img-container hoverimg">
+							<div class="gallery-img-front gallery-img5"></div>
+							<div class="gallery-img-back">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+					</div>
+					<div class="gallery-img-container hoverimg">
+							<div class="gallery-img-front gallery-img6"></div>
+							<div class="gallery-img-back">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
+					</div>
 				</div>
 			</section>
 
 			<section class="our-team">
 				<h2 class="our-team-title">Our Team</h2>
-				<p class="our-team-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+				<p class="our-team-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. </p>
 
 				<div class="our-team-grid">
 					<div class="our-team-item">
@@ -255,8 +273,89 @@ plan options for you</h2>
 				</div>
 			</section>
 
+			<section class="quick-action">
+				<h2 class="quick-action-title">New Patient Special Offer Complimentary Consultation</h2>
+				<a href="#" class="button quick-action-button">Read more</a>
+			</section>
+
 		</main>
-		<footer class="footer"></footer>
+		<footer class="footer">
+			<div class="footer-grid">
+				<section class="footer-grid-item footer-c">
+					<h2 class="footer-grid-item-title">Get in Touch</h2>
+					<div class="footer-contact">
+						<div class="footer-contact-icon">
+							<img src="img/footer-mail.png" alt="">
+						</div>
+						<div class="footer-contact-content">
+							<p>free@psdfreebies.com</p>
+							<p>free@psdfreebies.com</p>
+						</div>
+					</div>
+					<div class="footer-contact">
+						<div class="footer-contact-icon">
+							<img src="img/footer-phone.png" alt="">
+						</div>
+						<div class="footer-contact-content">
+							<p>+123 456 7890</p>
+							<p>+123 456 7890</p>
+						</div>
+					</div>
+					<div class="footer-contact">
+						<div class="footer-contact-icon">
+							<img src="img/footer-map.png" alt="">
+						</div>
+						<div class="footer-contact-content">
+							<p>123, Main Road, New City, My Country 123456</p>
+						</div>
+					</div>
+					<div class="footer-social">
+						<a href=""><i class="fab fa-facebook-f"></i></a>
+						<a href=""><i class="fab fa-google-plus-g"></i></a>
+						<a href=""><i class="fab fa-vk"></i></a>
+						<a href=""><i class="fab fa-youtube"></i></a>
+						<a href=""><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</section>
+				<section class="footer-grid-item">
+					<h2 class="footer-grid-item-title">Quick Links</h2>
+					<ul class="footer-links-list fa-ul">
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>About us</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Blog</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Contact us</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Faq</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Insurance</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Contact us</li>
+					</ul>
+				</section>
+				<section class="footer-grid-item">
+					<h2 class="footer-grid-item-title">Our Services</h2>
+					<ul class="footer-services-list">
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Work Injuries</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Sport Injuries</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Cold Laser Therapy</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Massage Therapy</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Physiotherapy</li>
+						<li><i class="fa fa-caret-right footer-services-list-i" aria-hidden="true"></i>Chiropratic Therapy</li>
+					</ul>
+				</section>
+				<section class="footer-grid-item footer-f">
+					<h2 class="footer-grid-item-title">Enquiry Form</h2>
+					<form class="footer-form">
+						<input type="text" placeholder="Name" class="footer-form-name">
+						<input type="tel" placeholder="Phone" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{4}" class="footer-form-phone">
+						<textarea placeholder="Message" class="footer-form-message"></textarea>
+						<input type="submit" value="submit" class="button footer-form-button">
+					</form>
+				</section>
+			</div>
+		</footer>
+		<div class="copyright">
+			<p>Copyright &copy; 2017. PSDFreebies.com  | Best PSD Template for freelancer and agencies</p>
+		</div>
 	</div>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.viewportchecker.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
